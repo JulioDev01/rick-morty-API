@@ -18,11 +18,10 @@ body{
     background-color:#4A5158;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-    width: calc(30% - 10px); /* Calcula a largura para ocupar metade da largura da div container */
-    display: inline-block; /* Faz as caixas ficarem uma ao lado da outra */
-    vertical-align: top; /* Alinha o topo das caixas */
-    box-sizing: border-box; /* Inclui a largura do padding e borda na largura total */
+    width: calc(30% - 10px); 
+    display: inline-block;
+    vertical-align: top; 
+    box-sizing: border-box; 
 }
 
 .nome-api{
