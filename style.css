@@ -1,0 +1,109 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+#dadosApi-html{
+    background-color: #363B41;
+    min-height: 100vh;
+}
+
+.dadosApi{
+    overflow: hidden;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    background-color:#4A5158;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    width: calc(30% - 10px); /* Calcula a largura para ocupar metade da largura da div container */
+    display: inline-block; /* Faz as caixas ficarem uma ao lado da outra */
+    vertical-align: top; /* Alinha o topo das caixas */
+    box-sizing: border-box; /* Inclui a largura do padding e borda na largura total */
+}
+
+.nome-api{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.nome-api:hover{
+    color: rgb(204, 139, 0);
+}
+
+.specieStatus-api{
+    margin: -12px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.texto-api{
+    color: rgb(206, 206, 206);
+    margin: 4px;
+}
+
+.infos-api{
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.infos-api:hover{
+    color: rgb(204, 139, 0);
+}
+
+.img-api{
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+}
+
+.esconder {
+    display: none;
+}
+
+
+header h1{
+    text-align: center;
+    font-size: 100px;
+    color: #32373b;
+}
+
+header input{
+    margin: auto;
+    display: block;
+    font-size: 25px;
+    border: none;
+    margin-bottom: 50px;
+    background-color: #363B41;
+    padding: 10px 12px;
+    width: 20%;
+    border-radius: 10px;
+    color: rgb(219, 219, 219);
+}
+
+input::placeholder {
+    color: rgb(219, 219, 219); /* Cor desejada para o placeholder */
+}
+
+footer{
+    background-color: #1e2124;
+    color: #adb1b6;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer a{
+    color:  #adb1b6;
+}
+
+footer a:hover{
+    color: rgb(204, 139, 0);
+    cursor: pointer;
+}
